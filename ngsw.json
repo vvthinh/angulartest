@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "angular-skeleton-app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/imgs/app-bg.jpg",
+        "/assets/imgs/app-bg.min.jpg",
+        "/assets/styles/_colors.scss",
+        "/assets/styles/_mixins.scss",
+        "/assets/styles/_vars-def.scss",
+        "/assets/styles/_vars.scss",
+        "/assets/styles/components/_components.scss",
+        "/assets/styles/components/activity.scss",
+        "/assets/styles/components/reset.scss",
+        "/assets/styles/components/shell.scss",
+        "/assets/styles/components/typography.scss",
+        "/assets/styles/themes/_dark-theme.scss",
+        "/assets/styles/themes/_light-theme.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/imgs/app-bg.jpg": "8375374943257b8a41580c7e33a3880da82a4e63",
+    "/assets/imgs/app-bg.min.jpg": "1848e54aae78eeea238508bd5312801cc946b6eb",
+    "/assets/styles/_colors.scss": "5e3daf88ea5d692c7b9aeff9743a315ec96ded05",
+    "/assets/styles/_mixins.scss": "c02760b7bd1321867b3e9eeb9e6b26f0a90b4e5e",
+    "/assets/styles/_vars-def.scss": "6789203e3e462321c60606dfe93d3bfb89152d56",
+    "/assets/styles/_vars.scss": "aa732c0dc0e4a1eaba76de7dd37247963f5866cd",
+    "/assets/styles/components/_components.scss": "f0d71d9ce9a4dfb35f41261715876123ab9e9809",
+    "/assets/styles/components/activity.scss": "6cbd08d173a38da28d88604c8df9cb911463a0c0",
+    "/assets/styles/components/reset.scss": "0916510c0daa5c11e133cd62c23fe6fa490a915a",
+    "/assets/styles/components/shell.scss": "f3bc1625e3363c6ab715977bf8b042aab12287cd",
+    "/assets/styles/components/typography.scss": "cb394cf28e55d3b75f03aa5d629dda794ca92a94",
+    "/assets/styles/themes/_dark-theme.scss": "3e9683bdd9197b1015548a4114549c59678b239c",
+    "/assets/styles/themes/_light-theme.scss": "49be560e83794313eedce7bd391632d213fa3b78",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "a9c6303b28439900bda4f7f464028dc7d8dd8a84"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
